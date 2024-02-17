@@ -1,0 +1,535 @@
+body {
+	background-color :bisque
+}
+h2{
+	text-align: center;
+}
+
+	
+
+ #center {
+	
+	width : 1800px;
+	height : 930px;
+	margin: auto;
+	position: relative;
+	display: flex;
+	right : 250px;
+}
+#Box{
+
+	word-wrap: break-word;
+	width: 80px;
+	height: 80px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	position: absolute;
+	font-size: 30px;
+	border: 2px solid black;
+	border-radius: 70px;
+	font-size : auto;
+	background-color : white;
+
+}
+
+#turn_ing{
+	position: absolute;
+	width : 120px;
+	height : 50px;
+	border: 4px solid darkslategrey;
+	left : 1420px;
+	bottom: 800px;
+	border-radius : 20px;
+
+	font-size : 40px;
+	text-align : center;
+	word-wrap: break-word;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.num0{
+	white-space: nowrap;
+	left : 1300px;
+	bottom: 50px;
+
+}
+.num1{
+	white-space: nowrap;
+	left : 1300px;
+	bottom: 200px;
+
+}
+.num2{
+	white-space: nowrap;
+	left : 1300px;
+	bottom: 350px;
+
+}
+.num3{
+	white-space: nowrap;
+	left : 1300px;
+	bottom: 500px;
+
+}
+.num4{
+	white-space: nowrap;
+	left : 1300px;
+	bottom: 650px;
+	
+
+}
+.num5{
+	white-space: nowrap;
+	left : 1300px;
+	bottom: 800px;
+}
+.num6{
+	white-space: nowrap;
+	left : 1150px;
+	bottom: 800px;
+}
+.num7{
+	white-space: nowrap;
+	left : 1000px;
+	bottom: 800px;
+
+}
+.num8{
+	white-space: nowrap;
+	left : 850px;
+	bottom: 800px;
+
+}
+.num9{
+	white-space: nowrap;
+	left : 700px;
+	bottom: 800px;
+
+}
+.num10{
+	white-space: nowrap;
+	left : 550px;
+	bottom: 800px;
+
+}
+.num11{
+	white-space: nowrap;
+	left : 550px;
+	bottom: 650px;
+
+}
+.num12{
+	white-space: nowrap;
+	left : 550px;
+	bottom: 500px;
+	
+}
+.num13{
+	white-space: nowrap;
+	left : 550px;
+	bottom: 350px;
+	
+
+}
+.num14{
+	white-space: nowrap;
+	left : 550px;
+	bottom: 200px;
+}
+.num15{
+	white-space: nowrap;
+	left : 550px;
+	bottom: 50px;
+	
+}
+.num16{
+	white-space: nowrap;
+	left : 700px;
+	bottom: 50px;
+
+}
+.num17{
+	white-space: nowrap;
+	left : 850px;
+	bottom: 50px;
+	
+}
+.num18{
+	white-space: nowrap;
+	left : 1000px;
+	bottom: 50px;
+	 
+
+}
+.num19{
+	white-space: nowrap;
+	left : 1150px;
+	bottom: 50px;
+
+}
+.num35{
+	white-space: nowrap;
+	left : 1175px;
+	bottom: 675px;
+
+}
+.num65{
+	white-space: nowrap;
+	left : 1050px;
+	bottom: 550px;
+}
+/* left : 1300px;
+	bottom: 800px; */
+.num95{
+	white-space: nowrap;
+	left : 925px;
+	bottom: 425px;
+}
+.num125{
+	white-space: nowrap;
+	left : 800px;
+	bottom: 300px;
+}
+.num155{
+	white-space: nowrap;
+	left : 675px;
+	bottom: 175px;
+}
+
+
+.num85{
+	white-space: nowrap;
+	left : 675px;
+	bottom: 675px;
+}
+.num90{
+	white-space: nowrap;
+	left : 800px;
+	bottom: 550px;
+}
+
+.num100{
+	white-space: nowrap;
+	left : 1050px;
+	bottom: 300px;
+}
+.num105{
+	white-space: nowrap;
+	left : 1175px;
+	bottom: 175px;
+}
+
+#abcd{
+	width : 150px;
+	height : 70px;
+	font-size : 25px;
+	text-align: center;
+	position: absolute;
+	left : 1420px;
+	bottom: 80px;
+	border-radius: 30px;
+	
+		cursor : pointer;
+}
+
+
+#move_MAl{
+	width : 70px;
+	height : 70px;
+	font-size : 25px;
+	font-weight : bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	left : 1590px;
+	bottom: 80px;
+	border-radius: 70px;
+	border : 4px solid black;
+	cursor : pointer;
+	background-color : white;
+}
+
+#mal_BOX{
+	position: absolute;
+	width : 100px;
+	height : 100px;
+	border : 3px solid black;
+	
+	overflow: hidden;
+	word-wrap: break-word;
+
+	font-size : 35px;
+	border-radius : 20px;
+}
+
+#mal_endBOX{
+	position: absolute;
+	width : 100px;
+	height : 100px;
+	border : 3px solid red;
+	
+	overflow: hidden;
+	word-wrap: break-word;
+
+	font-size : 35px;
+	border-radius : 20px;
+	
+}
+
+.p1{
+	left : 1430px;
+	bottom: 650px;
+	
+	
+}
+.p2{
+	left : 1430px;
+	bottom: 500px;
+
+}
+.p3{
+	left : 1430px;
+	bottom: 350px;
+
+}
+.p4{
+	left : 1430px;
+	bottom: 200px;
+
+}
+.p11{
+	left : 370px;
+	bottom: 650px;
+	
+	
+}
+.p22{
+	
+	left : 370px;
+	bottom: 500px;
+
+}
+.p33{
+	left : 370px;
+	bottom: 350px;
+
+}
+.p44{
+	left : 370px;
+	bottom: 200px;
+}
+
+
+
+#cilckMAL{
+	position: absolute;
+	width : 150px;
+	height : 120px;
+	border : 3px solid black;
+	
+	overflow: hidden;
+	word-wrap: break-word;
+
+	font-size : 35px;
+	border-radius : 20px;
+	left : 900px;
+	bottom : 630px;
+}
+
+
+
+#Yut_List{
+	position: absolute;
+	width : 400px;
+	height : 60px;
+	border : 2px solid black;
+	border-radius: 20px;
+	left : 1630px;
+	bottom :800px;
+	background-color: white;
+}
+
+
+
+
+#liens{
+	position: absolute;
+	width : 670px;
+	height : 2px;
+	background-color : black;
+	z-index: -1;
+}
+#liens2{
+	position: absolute;
+	width : 2px;
+	height : 670px;
+	background-color : black;
+	z-index: -1;
+}
+
+
+
+
+.garo1{
+	display: flex;
+	left : 630px;
+	bottom : 840px;
+}
+.garo2{
+	display: flex;
+	left : 630px;
+	bottom : 90px;
+}
+
+.sero1{
+	display: flex;
+	left : 590px;
+	bottom : 135px;
+}
+.sero2{
+	display: flex;
+	left : 1340px;
+	bottom : 135px;
+}
+
+#diagonal-line{
+	display: flex;
+	position: absolute;
+
+	width: 1000px;
+	height: 2px;
+	background-color: black;
+
+
+	z-index: -1;
+}
+
+.diagonal1{
+	left : 465px;
+	bottom : 470px;
+	transform: rotate(45deg);
+}
+
+.diagonal2{
+	left : 465px;
+	bottom : 470px;
+	transform: rotate(-45deg);
+}
+
+#one_box{
+	word-wrap: break-word;
+	width: 100px;
+	height: 100px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	position: absolute;
+
+	border: 2px solid black;
+	border-radius: 70px;
+	font-size : auto;
+	background-color: white;;
+	z-index: -1;
+}
+
+.one_0{
+	left : 1290px;
+	bottom: 40px;
+	
+	
+
+}
+
+.one_5{
+	left : 1290px;
+	bottom: 790px;
+}
+
+.one_10{
+	left : 540px;
+	bottom: 790px;
+}
+
+.one_15{
+	left : 540px;
+	bottom: 40px;
+	
+}
+
+.one_95{
+	left : 915px;
+	bottom: 415px;
+	
+}
+
+#cilckMAL{
+	cursor : pointer;
+}
+
+
+
+#new_MAl{
+	width : 73px;
+	height : 73px;
+	font-size : 25px;
+	font-weight : bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	left : 1560px;
+	bottom: 200px;
+	border-radius: 70px;
+	border : 4px solid black;
+	background-color : white;
+
+}
+
+#msg1{
+	position: absolute;
+	width : 350px;
+	height : 70px;
+	border : 2px solid black;
+	border-radius: 50px;
+	left : 1700px;
+	bottom : 80px;
+	background-color : white;
+	font-size :26px;
+	font-weight :bold;
+	text-align : center;
+	word-wrap: break-word;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+
+}
+
+#totalmsg{
+	word-wrap: break-word;
+	position: absolute;
+	width : 400px;
+	height : 70px;
+	border : 2px solid black;
+	border-radius: 20px;
+	left : 1670px;
+	bottom : 200px;
+	font-size: 25px;
+	text-size-adjust: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color : white;
+}
+/* 
+#talk{
+
+}
+
+#answer{
+
+} */
